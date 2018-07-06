@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2244E00420EF4C6E00387A44 /* DIYPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244E00320EF4C6E00387A44 /* DIYPopUpView.m */; };
+		2244E00D20EF6B6400387A44 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244E00C20EF6B6400387A44 /* MyViewController.m */; };
+		2244E00F20EF71E300387A44 /* cancelcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2244E00E20EF71E300387A44 /* cancelcon.png */; };
 		CB50C12720C29E81004995B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50C12620C29E81004995B0 /* AppDelegate.m */; };
 		CB50C12A20C29E81004995B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50C12920C29E81004995B0 /* ViewController.m */; };
 		CB50C12D20C29E81004995B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB50C12B20C29E81004995B0 /* Main.storyboard */; };
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2244E00220EF4C6E00387A44 /* DIYPopUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIYPopUpView.h; sourceTree = "<group>"; };
+		2244E00320EF4C6E00387A44 /* DIYPopUpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIYPopUpView.m; sourceTree = "<group>"; };
+		2244E00B20EF6B6400387A44 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		2244E00C20EF6B6400387A44 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		2244E00E20EF71E300387A44 /* cancelcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelcon.png; sourceTree = "<group>"; };
 		CB50C12220C29E81004995B0 /* DIYPopup_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIYPopup_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB50C12520C29E81004995B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB50C12620C29E81004995B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,8 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				CB50C15720C29E91004995B0 /* 58.JPG */,
+				2244E00E20EF71E300387A44 /* cancelcon.png */,
+				2244E00220EF4C6E00387A44 /* DIYPopUpView.h */,
+				2244E00320EF4C6E00387A44 /* DIYPopUpView.m */,
 				CB50C12520C29E81004995B0 /* AppDelegate.h */,
 				CB50C12620C29E81004995B0 /* AppDelegate.m */,
+				2244E00B20EF6B6400387A44 /* MyViewController.h */,
+				2244E00C20EF6B6400387A44 /* MyViewController.m */,
 				CB50C12820C29E81004995B0 /* ViewController.h */,
 				CB50C12920C29E81004995B0 /* ViewController.m */,
 				CB50C12B20C29E81004995B0 /* Main.storyboard */,
@@ -202,19 +215,25 @@
 				TargetAttributes = {
 					CB50C12120C29E81004995B0 = {
 						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = AZWK98U2MN;
+						ProvisioningStyle = Automatic;
 					};
 					CB50C13920C29E88004995B0 = {
 						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = AZWK98U2MN;
+						ProvisioningStyle = Automatic;
 						TestTargetID = CB50C12120C29E81004995B0;
 					};
 					CB50C14420C29E88004995B0 = {
 						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = AZWK98U2MN;
+						ProvisioningStyle = Automatic;
 						TestTargetID = CB50C12120C29E81004995B0;
 					};
 				};
 			};
 			buildConfigurationList = CB50C11D20C29E81004995B0 /* Build configuration list for PBXProject "DIYPopup_demo" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -238,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2244E00F20EF71E300387A44 /* cancelcon.png in Resources */,
 				CB50C13220C29E88004995B0 /* LaunchScreen.storyboard in Resources */,
 				CB50C12F20C29E88004995B0 /* Assets.xcassets in Resources */,
 				CB50C15820C29E91004995B0 /* 58.JPG in Resources */,
@@ -268,7 +288,9 @@
 			files = (
 				CB50C12A20C29E81004995B0 /* ViewController.m in Sources */,
 				CB50C13520C29E88004995B0 /* main.m in Sources */,
+				2244E00420EF4C6E00387A44 /* DIYPopUpView.m in Sources */,
 				CB50C12720C29E81004995B0 /* AppDelegate.m in Sources */,
+				2244E00D20EF6B6400387A44 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,10 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = DIYPopup_demo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feibaichen.DIYPopup-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,10 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = DIYPopup_demo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feibaichen.DIYPopup-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,11 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = DIYPopup_demoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feibaichen.DIYPopup-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,11 +505,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = DIYPopup_demoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feibaichen.DIYPopup-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -511,11 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = DIYPopup_demoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feibaichen.DIYPopup-demoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,11 +533,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZWK98U2MN;
 				INFOPLIST_FILE = DIYPopup_demoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feibaichen.DIYPopup-demoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
