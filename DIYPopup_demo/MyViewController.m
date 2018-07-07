@@ -19,9 +19,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    DIYPopUpView *diy = [DIYPopUpView new];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    button.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:button];
     
+    
+    UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
+    DIYPopUpView *diy = [[DIYPopUpView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [window addSubview:diy];
     [diy showPopView];
+    
+    
     
 }
 

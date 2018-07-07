@@ -9,13 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface DIYPopUpView : UIView
-@property (nonatomic,strong) UIView *fullBackView;
+
+@property (nonatomic,assign) CGRect fullBackRect;
 @property (nonatomic,strong) UIView *popShowView;
 
 @property (nonatomic,strong) UIImageView *imageV;
 @property (nonatomic,strong) UILabel *popTitle;
 @property (nonatomic,strong) UILabel *price;
 @property (nonatomic,strong) UIButton *cancelButton;
+@property (nonatomic,strong) UIButton *cancelButton2;
 
 -(void)hidePopView;
 -(void)showPopView;

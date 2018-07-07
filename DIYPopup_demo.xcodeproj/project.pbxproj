@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222A55BE20F0612C00EC8736 /* transparency.png in Resources */ = {isa = PBXBuildFile; fileRef = 222A55BD20F0612C00EC8736 /* transparency.png */; };
 		2244E00420EF4C6E00387A44 /* DIYPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244E00320EF4C6E00387A44 /* DIYPopUpView.m */; };
 		2244E00D20EF6B6400387A44 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244E00C20EF6B6400387A44 /* MyViewController.m */; };
 		2244E00F20EF71E300387A44 /* cancelcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2244E00E20EF71E300387A44 /* cancelcon.png */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		222A55BD20F0612C00EC8736 /* transparency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparency.png; sourceTree = "<group>"; };
 		2244E00220EF4C6E00387A44 /* DIYPopUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIYPopUpView.h; sourceTree = "<group>"; };
 		2244E00320EF4C6E00387A44 /* DIYPopUpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIYPopUpView.m; sourceTree = "<group>"; };
 		2244E00B20EF6B6400387A44 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				CB50C15720C29E91004995B0 /* 58.JPG */,
 				2244E00E20EF71E300387A44 /* cancelcon.png */,
+				222A55BD20F0612C00EC8736 /* transparency.png */,
 				2244E00220EF4C6E00387A44 /* DIYPopUpView.h */,
 				2244E00320EF4C6E00387A44 /* DIYPopUpView.m */,
 				CB50C12520C29E81004995B0 /* AppDelegate.h */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2244E00F20EF71E300387A44 /* cancelcon.png in Resources */,
+				222A55BE20F0612C00EC8736 /* transparency.png in Resources */,
 				CB50C13220C29E88004995B0 /* LaunchScreen.storyboard in Resources */,
 				CB50C12F20C29E88004995B0 /* Assets.xcassets in Resources */,
 				CB50C15820C29E91004995B0 /* 58.JPG in Resources */,
